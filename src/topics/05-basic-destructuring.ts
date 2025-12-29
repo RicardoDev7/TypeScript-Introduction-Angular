@@ -31,4 +31,9 @@ console.log({anotherSong});
 console.log({duration});
 console.log({author});
 
+
+const dbz: string[] = ['Goku', 'Vegeta', 'Trunks'];
+const [, , p3 = 'Not Found'] = dbz;
+console.log({p3});
+
 export {};
