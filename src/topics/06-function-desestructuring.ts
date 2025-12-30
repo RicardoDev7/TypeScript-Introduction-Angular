@@ -1,4 +1,4 @@
-interface Product {
+export interface Product {
     description: string;
     price: number;
 }
@@ -20,7 +20,7 @@ const tablet : Product = {
 
 const shoppingCart: Product[] = [phone, tablet];
 
-function taxCalculation(options: TaxCalculationOptions): [number, number]{
+export function taxCalculation(options: TaxCalculationOptions): [number, number]{
     const {tax, products} = options;
     let total: number = 0;
     products.forEach( ( { price } ) => { total += price; });
