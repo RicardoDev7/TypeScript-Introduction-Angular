@@ -5,7 +5,8 @@ import './style.css'
 //import './topics/04-homework1'
 //import './topics/05-basic-destructuring'
 //import './topics/06-function-desestructuring'
-import './topics/07-import-export'
+//import './topics/07-import-export'
+import './topics/08-clasess'
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 app.innerHTML = 'Hola Mundo';

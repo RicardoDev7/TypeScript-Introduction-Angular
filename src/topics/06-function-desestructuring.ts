@@ -32,9 +32,9 @@ const optionsRequest: TaxCalculationOptions = {
     tax: 0.15
 }
 
-const [totalPrice, totalTax] = taxCalculation(optionsRequest);
+//const [totalPrice, totalTax] = taxCalculation(optionsRequest);
 
-console.log({totalPrice});
-console.log({totalTax});
+//console.log({totalPrice});
+//console.log({totalTax});
 
 export {};
